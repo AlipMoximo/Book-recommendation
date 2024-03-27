@@ -51,24 +51,24 @@ def main():
     global reading_history_entry, genres_entry, authors_entry, ratings_entry, recommended_list
 
     root = tk.Tk()
-    root.title("Book Recommendation System")
+    root.title("Monica's book recommendations")
 
-    reading_history_label = tk.Label(root, text="Reading History (separated by commas):")
+    reading_history_label = tk.Label(root, text="What is your reading history?")
     reading_history_label.pack()
     reading_history_entry = tk.Entry(root, width=50)
     reading_history_entry.pack()
 
-    genres_label = tk.Label(root, text="Genres (separated by commas):")
+    genres_label = tk.Label(root, text="What Genres do you prefer?")
     genres_label.pack()
     genres_entry = tk.Entry(root, width=50)
     genres_entry.pack()
 
-    authors_label = tk.Label(root, text="Authors (separated by commas):")
+    authors_label = tk.Label(root, text="Who is the author?")
     authors_label.pack()
     authors_entry = tk.Entry(root, width=50)
     authors_entry.pack()
 
-    ratings_label = tk.Label(root, text="Ratings (separated by commas):")
+    ratings_label = tk.Label(root, text="Book, Author ratings")
     ratings_label.pack()
     ratings_entry = tk.Entry(root, width=50)
     ratings_entry.pack()
